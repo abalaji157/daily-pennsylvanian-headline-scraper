@@ -26,6 +26,7 @@ def scrape_data_point():
 
     if req.ok:
         soup = bs4.BeautifulSoup(req.text, "html.parser")
+        print("content is here: " + soup.prettify())
         target_element = soup.find("a")
         data_point = "" if target_element is None else target_element.text
         print(f"Data point is here test this: {data_point}")
