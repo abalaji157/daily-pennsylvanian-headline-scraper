@@ -54,8 +54,10 @@ def scrape_data_point():
             url = li['href']
             data.append({'sport': sport, 'url': url})
             print(f"Found sport: {sport}, URL: {url}")
-            
-        loguru.logger.info(f"Data point: {data_point}")
+        print("THe returned sport data is here: ")
+        print(data)
+        print("printed")
+        loguru.logger.info(f"Data point: {data}")
         return data 
         # return data_point
 
