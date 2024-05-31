@@ -26,9 +26,22 @@ def scrape_data_point():
 
     if req.ok:
         soup = bs4.BeautifulSoup(req.text, "html.parser")
-        print("content is here: " + soup.prettify())
-        target_element = soup.find("a")
-        data_point = "" if target_element is None else target_element.text
+        h3_tag = soup.find("h3", class_="standard-link")
+        print("check this \n")
+        if h3_tag:
+            print("h3 tag is here")
+            target_element = h3_tag.find("a")
+            if target_element:
+                print(f"Found target element: {target_element}")
+                data_point = target_element.text.strip()
+            else:
+                print("Target <a> element not found.")
+                data_point = ""
+        else:
+            print("<h3> tag with class 'standard-link' not found.")
+            data_point = ""
+        
+        # data_point = "" if target_element is None else target_element.text
         print(f"Data point is here test this: {data_point}")
         loguru.logger.info(f"Data point: {data_point}")
         return data_point
