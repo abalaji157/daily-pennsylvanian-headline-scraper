@@ -27,10 +27,10 @@ def scrape_data_point():
     if req.ok:
         soup = bs4.BeautifulSoup(req.text, "html.parser")
         h3_tag = soup.find("h3", class_="standard-link")
-        print("check this \n")
+        print("check")
         if h3_tag:
             print("h3 tag is here")
-            target_element = h3_tag.find("a")
+            target_element = h3_tag.find_all("a")
             if target_element:
                 print(f"Found target element: {target_element}")
                 data_point = target_element.text.strip()
