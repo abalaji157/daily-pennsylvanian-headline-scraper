@@ -26,27 +26,38 @@ def scrape_data_point():
 
     if req.ok:
         soup = bs4.BeautifulSoup(req.text, "html.parser")
-        print(soup.prettify())
+        # print(soup.prettify())
 
-        h3_tag = soup.find("h3", class_="standard-link")
-        print("check")
-        if h3_tag:
-            print("h3 tag is here")
-            target_element = h3_tag.find_all("a")
-            if target_element:
-                print(f"Found target element: {target_element}")
-                data_point = target_element.text.strip()
-            else:
-                print("Target <a> element not found.")
-                data_point = ""
-        else:
-            print("<h3> tag with class 'standard-link' not found.")
-            data_point = ""
+        # h3_tag = soup.find("h3", class_="standard-link")
+        # print("check")
+        # if h3_tag:
+        #     print("h3 tag is here")
+        #     target_element = h3_tag.find_all("a")
+        #     if target_element:
+        #         print(f"Found target element: {target_element}")
+        #         data_point = target_element.text.strip()
+        #     else:
+        #         print("Target <a> element not found.")
+        #         data_point = ""
+        # else:
+        #     print("<h3> tag with class 'standard-link' not found.")
+        #     data_point = ""
         
-        # data_point = "" if target_element is None else target_element.text
-        print(f"Data point is here test this: {data_point}")
+        # # data_point = "" if target_element is None else target_element.text
+        # print(f"Data point is here test this: {data_point}")
+
+        # Find all <li> tags containing the sports links
+        li_tags = soup.select("li a[href*='/section/']")
+        data = []
+        for li in li_tags:
+            sport = li.text.strip()
+            url = li['href']
+            data.append({'sport': sport, 'url': url})
+            print(f"Found sport: {sport}, URL: {url}")
+            
         loguru.logger.info(f"Data point: {data_point}")
-        return data_point
+        return data 
+        # return data_point
 
 
 if __name__ == "__main__":
