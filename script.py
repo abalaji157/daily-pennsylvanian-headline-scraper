@@ -26,6 +26,8 @@ def scrape_data_point():
 
     if req.ok:
         soup = bs4.BeautifulSoup(req.text, "html.parser")
+        print(soup.prettify())
+
         h3_tag = soup.find("h3", class_="standard-link")
         print("check")
         if h3_tag:
