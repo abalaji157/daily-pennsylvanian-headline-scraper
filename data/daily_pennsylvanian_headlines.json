@@ -4690,5 +4690,172 @@
         }
       ]
     ]
+  ],
+  "2024-6-28": [
+    [
+      "2024-06-28 04:17PM",
+      [
+        {
+          "sport": "All News",
+          "url": "https://www.thedp.com/section/news"
+        },
+        {
+          "sport": "Academics",
+          "url": "https://www.thedp.com/section/academics"
+        },
+        {
+          "sport": "Administration",
+          "url": "https://www.thedp.com/section/administration"
+        },
+        {
+          "sport": "Admissions",
+          "url": "https://www.thedp.com/section/admissions"
+        },
+        {
+          "sport": "Identities",
+          "url": "https://www.thedp.com/section/identities"
+        },
+        {
+          "sport": "Science & Health",
+          "url": "https://www.thedp.com/section/health"
+        },
+        {
+          "sport": "Politics",
+          "url": "https://www.thedp.com/section/politics"
+        },
+        {
+          "sport": "Philadelphia",
+          "url": "https://www.thedp.com/section/philadelphia"
+        },
+        {
+          "sport": "Student Life",
+          "url": "https://www.thedp.com/section/student-life"
+        },
+        {
+          "sport": "Data",
+          "url": "https://www.thedp.com/section/data"
+        },
+        {
+          "sport": "Business",
+          "url": "https://www.thedp.com/section/business"
+        },
+        {
+          "sport": "All Sports",
+          "url": "https://www.thedp.com/section/sports"
+        },
+        {
+          "sport": "Baseball",
+          "url": "https://www.thedp.com/section/baseball"
+        },
+        {
+          "sport": "Softball",
+          "url": "https://www.thedp.com/section/softball"
+        },
+        {
+          "sport": "Men's Lacrosse",
+          "url": "https://www.thedp.com/section/mens_lacrosse"
+        },
+        {
+          "sport": "Women's Lacrosse",
+          "url": "https://www.thedp.com/section/womens_lacrosse"
+        },
+        {
+          "sport": "Men's Tennis",
+          "url": "https://www.thedp.com/section/mens_tennis"
+        },
+        {
+          "sport": "Women's Tennis",
+          "url": "https://www.thedp.com/section/womens-tennis"
+        },
+        {
+          "sport": "Track & Field",
+          "url": "https://www.thedp.com/section/track"
+        },
+        {
+          "sport": "All Opinion",
+          "url": "https://www.thedp.com/section/opinion"
+        },
+        {
+          "sport": "Staff Editorials",
+          "url": "https://www.thedp.com/section/editorials"
+        },
+        {
+          "sport": "Opinion Columns",
+          "url": "https://www.thedp.com/section/columns"
+        },
+        {
+          "sport": "Guest Columns",
+          "url": "https://www.thedp.com/section/guest-columns"
+        },
+        {
+          "sport": "Crosswords",
+          "url": "https://www.thedp.com/section/crosswords"
+        },
+        {
+          "sport": "Mini Crosswords",
+          "url": "https://www.thedp.com/section/mini-crosswords"
+        },
+        {
+          "sport": "Podcasts",
+          "url": "https://www.thedp.com/section/podcasts"
+        },
+        {
+          "sport": "PR Blog",
+          "url": "https://www.thedp.com/section/pr-blog"
+        },
+        {
+          "sport": "\u00ab First",
+          "url": "/section/soccer?page=1&per_page=20"
+        },
+        {
+          "sport": "\u2039 Previous",
+          "url": "/section/soccer?page=1&per_page=20"
+        },
+        {
+          "sport": "2",
+          "url": "/section/soccer?page=2&per_page=20"
+        },
+        {
+          "sport": "3",
+          "url": "/section/soccer?page=3&per_page=20"
+        },
+        {
+          "sport": "4",
+          "url": "/section/soccer?page=4&per_page=20"
+        },
+        {
+          "sport": "5",
+          "url": "/section/soccer?page=5&per_page=20"
+        },
+        {
+          "sport": "6",
+          "url": "/section/soccer?page=6&per_page=20"
+        },
+        {
+          "sport": "7",
+          "url": "/section/soccer?page=7&per_page=20"
+        },
+        {
+          "sport": "8",
+          "url": "/section/soccer?page=8&per_page=20"
+        },
+        {
+          "sport": "9",
+          "url": "/section/soccer?page=9&per_page=20"
+        },
+        {
+          "sport": "10",
+          "url": "/section/soccer?page=10&per_page=20"
+        },
+        {
+          "sport": "Next \u203a",
+          "url": "/section/soccer?page=2&per_page=20"
+        },
+        {
+          "sport": "Last \u00bb",
+          "url": "/section/soccer?page=27&per_page=20"
+        }
+      ]
+    ]
   ]
 }
